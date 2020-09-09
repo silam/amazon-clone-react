@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Home.css";
+import Product from "./Product";
+
 
 {/* <img 
 alt="All-new Blink Outdoor. Alexa, 
@@ -15,6 +17,8 @@ function  s() {
             </div>
 
             <div className="home__row">
+                <Product ></Product>
+                <Product ></Product>
 
             </div>   
             <div className="home__row">
@@ -24,7 +28,7 @@ function  s() {
             <div className="home__row">
                 
             </div>   
-                     
+
         </div>
     )
 }
